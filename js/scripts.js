@@ -8,8 +8,8 @@ var navigate = (function() {
 })();
 
 var entered = "";
-/*var at_password = false;
-var is_finished = false;
+var at_password = false;
+/*var is_finished = false;
 
 function GenerateMessage(msg) {
   var dt = new Date();
