@@ -17,14 +17,14 @@ function GenerateMessage(msg) {
 
   return "<div class='container'><img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/2159582/robot.jpg' alt='Avatar'><p>" + msg + "</p><span class='time-right'>" + time + "</span></div>"
 }
-/*
+
 function GenerateUserMessage(msg) {
   var dt = new Date();
   var time = dt.getHours() + ":" + (dt.getMinutes() < 10 ? '0' : '') + dt.getMinutes();
 
   return "<div class='container darker user-chat-container'><img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/2159582/avatar-placeholder.png' alt='Avatar' class='right'><p>" + msg + "</p><span class='time-left'>" + time + "</span></div></div>"
 }
-
+/*
 setTimeout(function() {
   steve_write("Hello. My name is Stewart bot. I can do many things in my creator's mind for sure but first I am here to assist you with your registration. Now, would you be so kind and tell me your full name?");
 }, 1000);
