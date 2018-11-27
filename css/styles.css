@@ -7,13 +7,13 @@ html {
   height: 100%;
 }
 
-/*body {
+body {
   background: #0F2027;
   background: -webkit-linear-gradient(#2C5364, #203A43, #0F2027);
   background: linear-gradient(#2C5364, #203A43, #0F2027);
 }
 
-.my_social {
+/*.my_social {
   position: absolute;
   top: 25px;
   left: 25px;
