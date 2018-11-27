@@ -58,12 +58,12 @@ $('#chat-button').on('click', function(e) {
   }
 })
 
-/*function steve_write(msg) {
+function steve_write(msg) {
   $('#writing-span').fadeOut();
   $('.chat').append(GenerateMessage(msg))
   $(".chat").scrollTop(1000);
 }
-
+/*
 function steve() {
   switch ($('.user-chat-container').length) {
     case 1:
