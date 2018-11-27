@@ -86,12 +86,12 @@ h5 {
   background-color: #f39c12;
 }
 
-/*.chat {
+.chat {
   height: 250px;
   overflow-y: auto;
 }
 
-#writing-span {
+/*#writing-span {
   color: grey;
 }
 
