@@ -9,9 +9,9 @@ var navigate = (function() {
 
 var entered = "";
 var at_password = false;
-/*var is_finished = false;
+var is_finished = false;
 
-function GenerateMessage(msg) {
+/*function GenerateMessage(msg) {
   var dt = new Date();
   var time = dt.getHours() + ":" + (dt.getMinutes() < 10 ? '0' : '') + dt.getMinutes();
 
