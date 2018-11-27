@@ -43,7 +43,7 @@ $(document).keypress(function(e) {
     }
   }
 });
-/*
+
 $('#chat-button').on('click', function(e) {
   e.preventDefault();
   if ($('#chat-message').val()) {
@@ -58,7 +58,7 @@ $('#chat-button').on('click', function(e) {
   }
 })
 
-function steve_write(msg) {
+/*function steve_write(msg) {
   $('#writing-span').fadeOut();
   $('.chat').append(GenerateMessage(msg))
   $(".chat").scrollTop(1000);
