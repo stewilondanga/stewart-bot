@@ -141,13 +141,12 @@ h5 {
 
 /* Style time text */
 
-/*
 .time-left {
   float: left;
   color: #999;
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
