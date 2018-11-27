@@ -28,7 +28,7 @@ function GenerateUserMessage(msg) {
 setTimeout(function() {
   steve_write("Hello. My name is Stewart bot. I can do many things in my creator's mind for sure but first I am here to assist you with your registration. Now, would you be so kind and tell me your full name?");
 }, 1000);
-/*
+
 $(document).keypress(function(e) {
   if (e.which == 13) {
     if ($('#chat-message').val()) {
@@ -43,7 +43,7 @@ $(document).keypress(function(e) {
     }
   }
 });
-
+/*
 $('#chat-button').on('click', function(e) {
   e.preventDefault();
   if ($('#chat-message').val()) {
