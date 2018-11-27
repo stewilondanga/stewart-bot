@@ -7,8 +7,8 @@ var navigate = (function() {
   });
 })();
 
-/*var entered = "";
-var at_password = false;
+var entered = "";
+/*var at_password = false;
 var is_finished = false;
 
 function GenerateMessage(msg) {
