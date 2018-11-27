@@ -78,7 +78,7 @@ h5 {
   display: inline;
 }
 
-/*.button {
+.button {
   width: 10%;
   font-size: 20px;
   border: 1px solid #e08e0b display: inline;
@@ -86,7 +86,7 @@ h5 {
   background-color: #f39c12;
 }
 
-.chat {
+/*.chat {
   height: 250px;
   overflow-y: auto;
 }
