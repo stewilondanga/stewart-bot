@@ -56,12 +56,12 @@ h5 {
 
 /* Chat containers */
 
-/*.chat {
+.chat {
   border: 1px solid #e0e0e0;
   padding: 0px 10px;
 }
 
-.container {
+/*.container {
   border: 2px solid #dedede;
   background-color: #e0e0e0;
   border-radius: 5px;
