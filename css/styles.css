@@ -46,11 +46,11 @@ body {
   color: #444;
 }
 
-/*h5 {
+h5 {
   display: inline;
 }
 
-.mt-15 {
+/*.mt-15 {
   margin-top: 15px;
 }
 
@@ -133,6 +133,7 @@ body {
 }
 
 /* Style time text */
+
 /*
 .time-right {
   float: right;
@@ -140,6 +141,7 @@ body {
 }
 
 /* Style time text */
+
 /*
 .time-left {
   float: left;
