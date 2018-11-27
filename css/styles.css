@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
+* {
+  font-family: Roboto;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background: #0F2027;
+  background: -webkit-linear-gradient(#2C5364, #203A43, #0F2027);
+  background: linear-gradient(#2C5364, #203A43, #0F2027);
+}
+
+.my_social {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+}
+
+.my_social a {
+  display: inline-block;
+  height: 2.5em;
+}
+
+.my_social a img {
+  height: 1.5em;
+}
+
+.card {
+  margin-top: 10vh;
+}
+
+.card {
+  padding: 10px;
+  background-color: #ffffff;
+  border-top: 3px solid #f39c12;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.head>p {
+  font-size: 20px;
+  margin: 5px;
+  color: #444;
+}
+
+h5 {
+  display: inline;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+/* Chat containers */
+
+.chat {
+  border: 1px solid #e0e0e0;
+  padding: 0px 10px;
+}
+
+.container {
+  border: 2px solid #dedede;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.textinput {
+  width: 85%;
+  margin-top: 10px;
+  font-size: 15px;
+  padding: 5px;
+  color: #444;
+  display: inline;
+}
+
+.button {
+  width: 10%;
+  font-size: 20px;
+  border: 1px solid #e08e0b display: inline;
+  text-align: center;
+  background-color: #f39c12;
+}
+
+.chat {
+  height: 250px;
+  overflow-y: auto;
+}
+
+#writing-span {
+  color: grey;
+}
+
+/* Darker chat container */
+
+.darker {
+  border-color: #ccc;
+  background-color: #ddd;
+}
+
+/* Clear floats */
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Style images */
+
+.container img {
+  float: left;
+  max-width: 60px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+/* Style the right image */
+
+.container img.right {
+  float: right;
+  margin-left: 20px;
+  margin-right: 0;
+}
+
+.container.darker p {
+  text-align: right;
+}
+
+/* Style time text */
+
+.time-right {
+  float: right;
+  color: #aaa;
+}
+
+/* Style time text */
+
+.time-left {
+  float: left;
+  color: #999;
+}
+
+.containers {
+  width: 520px;
+  margin: 20px auto;
+}
+
+#contact h1 {
+  font-family: helvetica;
+  font-weight: normal;
+  text-align: center;
+  color: #c0c0c0;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  width: 375px;
+  margin: 0 auto;
+  border-bottom: 3px solid #f3f3f3;
+}
+
+.cal {
+  display: inline-block;
+  background: #ffe;
+  color: #555;
+  font-size: 6px;
+  text-align: center;
+  transform: scale(1);
+  transition: all 0.2s linear;
+}
+
+.cal:hover {
+  transform: scale(2.5);
+  transition: all 0.4s linear;
+}
+
+.cal caption {
+  background: #d44;
+  color: #eee;
+  font-size: 15px;
+}
+
+.cal th {
+  color: #aaa;
+  line-height: 200%;
+}
+
+.cal th:first-child {
+  color: #f00;
+}
+
+.cal th:last-child {
+  color: #04d;
+}
+
+.cal td {
+  padding: 0 2px;
+  line-height: 100%;
+}
