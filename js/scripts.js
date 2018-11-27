@@ -11,13 +11,13 @@ var entered = "";
 var at_password = false;
 var is_finished = false;
 
-/*function GenerateMessage(msg) {
+function GenerateMessage(msg) {
   var dt = new Date();
   var time = dt.getHours() + ":" + (dt.getMinutes() < 10 ? '0' : '') + dt.getMinutes();
 
   return "<div class='container'><img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/2159582/robot.jpg' alt='Avatar'><p>" + msg + "</p><span class='time-right'>" + time + "</span></div>"
 }
-
+/*
 function GenerateUserMessage(msg) {
   var dt = new Date();
   var time = dt.getHours() + ":" + (dt.getMinutes() < 10 ? '0' : '') + dt.getMinutes();
