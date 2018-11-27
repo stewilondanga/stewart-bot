@@ -69,7 +69,7 @@ h5 {
   margin: 10px 0;
 }
 
-/*.textinput {
+.textinput {
   width: 85%;
   margin-top: 10px;
   font-size: 15px;
@@ -78,7 +78,7 @@ h5 {
   display: inline;
 }
 
-.button {
+/*.button {
   width: 10%;
   font-size: 20px;
   border: 1px solid #e08e0b display: inline;
