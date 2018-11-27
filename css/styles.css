@@ -122,13 +122,13 @@ h5 {
 
 /* Style the right image */
 
-/*.container img.right {
+.container img.right {
   float: right;
   margin-left: 20px;
   margin-right: 0;
 }
 
-.container.darker p {
+/*.container.darker p {
   text-align: right;
 }
 
